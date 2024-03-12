@@ -11,15 +11,15 @@ for (let i = 0; i < 10; i++) {
 }
 console.log(randomNumbers);
 
-
+// creo i div e li appendo al body
 const evenNumbers = document.createElement('div');
 evenNumbers.id = 'divEven';
 evenNumbers.style.color = 'red';
-document.body.innerHTML += ;
+document.body.append(evenNumbers);
 
 const oddNumbers = document.createElement('div');
 oddNumbers.id = 'divOdd';
 oddNumbers.style.color = 'green';
-document.body.innerHTML += ;
+document.body.append(oddNumbers);
 
 
