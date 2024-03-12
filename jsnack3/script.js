@@ -22,4 +22,11 @@ oddNumbers.id = 'divOdd';
 oddNumbers.style.color = 'green';
 document.body.append(oddNumbers);
 
-
+// creo il ciclo che assegnerà i numeri ai rispettivi div
+for (const number of randomNumbers) {
+    if (number % 2 ===  0) {
+        evenNumbers.innerHTML += `${number} `;
+    } else {
+        oddNumbers.innerHTML += `${number} `;
+    }
+}
